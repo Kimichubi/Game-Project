@@ -16,11 +16,8 @@
     <Filter Include="Arquivos de Origem\src">
       <UniqueIdentifier>{7af3477c-c9e9-4446-b85c-2e4cc7118a01}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Arquivos de Origem\src\Jogador">
-      <UniqueIdentifier>{b55b98c3-51b1-452c-9f66-f60a84b7133b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Arquivos de Cabeçalho\Jogador">
-      <UniqueIdentifier>{bad3ec52-d094-43e5-bd6e-d472da9fd905}</UniqueIdentifier>
+    <Filter Include="Arquivos de Origem\src\Player">
+      <UniqueIdentifier>{d23c3041-77a8-4db1-b716-922b2a954c39}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -30,19 +27,19 @@
     <ClCompile Include="main.cpp">
       <Filter>Arquivos de Origem\src</Filter>
     </ClCompile>
-    <ClCompile Include="Principal.cpp">
+    <ClCompile Include="Origem.cpp">
       <Filter>Arquivos de Origem\src</Filter>
     </ClCompile>
-    <ClCompile Include="Jogador.cpp">
-      <Filter>Arquivos de Origem\src\Jogador</Filter>
+    <ClCompile Include="Player.cpp">
+      <Filter>Arquivos de Origem\src\Player</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Principal.h">
+    <ClInclude Include="Game.h">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
-    <ClInclude Include="Jogador.h">
-      <Filter>Arquivos de Cabeçalho\Jogador</Filter>
+    <ClInclude Include="Player.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

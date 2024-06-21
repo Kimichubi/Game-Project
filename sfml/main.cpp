@@ -1,8 +1,7 @@
-#include "Principal.h"
+#include "Game.h"
 
-int main()
-{
-	Jungle::Principal objPrincipal;
+int main() {
+	Game obj;
 
 	return 0;
 }
