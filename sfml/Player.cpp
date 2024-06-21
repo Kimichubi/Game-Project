@@ -62,6 +62,7 @@ void Player::move()
 {
 	auto horizontal = sf::Vector2f(0.1f, 0.1f);
 
+	this->animationTime = sf::seconds(0.05f);
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
 	{
 		this->body.move(sf::Vector2f(-horizontal.y, 0.f));
@@ -80,6 +81,7 @@ void Player::move()
 	else if (sf::Mouse::isButtonPressed(sf::Mouse::Right))
 	{
 		this->body.move(sf::Vector2f(0.f, 0.f));
+		this->animationTime = sf::seconds(0.10f);
 		this->animationState = Shoot;
 	}
 	else
